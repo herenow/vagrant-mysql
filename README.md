@@ -4,7 +4,7 @@ vagrant-crate
 This a a Vagrant setup for an Ubuntu 12.04 VM running Crate.io Data Storage. You can use this to get a Crate Database up and running, all in an isolated enviroment.
 
 
-Downloading
+Installing
 ----------
 * First install Vagrant on your system, http://downloads.vagrantup.com/
 ```
