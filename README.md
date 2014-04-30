@@ -14,7 +14,7 @@ vagrant up
 ```
 
 * Vagrant make take some time to setup your virtual machine
-* Once everything is up, you will have Crate running on localhost:4200 (http://localhost:4200/admin)
+* Once everything is up, you will have Crate running on localhost:4200, checkout http://localhost:4200/admin
 
 
 Docs
