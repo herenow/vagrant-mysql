@@ -19,5 +19,5 @@ vagrant up
 
 Docs
 ----------
-http://docs.vagrantup.com/v2/
-https://crate.io/docs/current/
+* http://docs.vagrantup.com/v2/
+* https://crate.io/docs/current/
