@@ -8,7 +8,7 @@ curl -L try.crate.io > ./try.crate.io
 chmod 755 ./try.crate.io
 
 # Add it to boot
-ln -s ./trye.crate.io /etc/init.d/crate
+ln -s /home/vagrant/try.crate.io /etc/init.d/crate
 
 # Now install crate.io
 bash ./try.crate.io
