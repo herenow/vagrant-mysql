@@ -4,7 +4,7 @@ apt-get update
 apt-get install -y curl openjdk-7-jdk
 
 # Download and install crate
-bash -c $(curl -L try.crate.io)
+bash -c "$(curl -L try.crate.io)"
 
 # Boot Script
 sudo echo '#!/bin/sh' >> /etc/init.d/crate
