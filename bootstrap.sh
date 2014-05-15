@@ -1,13 +1,6 @@
 #!/usr/bin/env bash
 
+apt-get install -y python-software-properties
+add-apt-repository -y ppa:rwky/redis
 apt-get update
-apt-get install -y curl openjdk-7-jdk
-
-# Boot script
-sudo echo '#!/bin/sh' >> /etc/init.d/crate
-sudo echo '/home/vagrant/crate*/bin/crate' >> /etc/init.d/crate
-sudo chmod 755 /etc/init.d/crate
-sudo update-rc.d crate defaults
-
-# Download and install crate
-bash -c "$(curl -L try.crate.io)"
+apt-get install -y redis-server

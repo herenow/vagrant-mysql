@@ -12,6 +12,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   # Crateio default port
   # Modify the host port to have Crate running on a different port on your local machine
-  config.vm.network "forwarded_port", guest: 4200, host: 4200
+  config.vm.network "forwarded_port", guest: 6379, host: 6379
 
 end

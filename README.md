@@ -1,23 +1,21 @@
-vagrant-crate
+vagrant-redis
 =============
 
-This a a Vagrant setup for an Ubuntu 12.04 VM running Crate.io Data Storage. You can use this to get a Crate Database up and running, all in an isolated enviroment.
+This a Vagrant setup for an Ubuntu 12.04 VM running Redis.
 
 
 Installing
 ----------
 * First install Vagrant on your system, http://downloads.vagrantup.com/
 ```
-git clone https://github.com/herenow/vagrant-crate
-cd vagrant-crate
+git clone https://github.com/herenow/vagrant-redis
+cd vagrant-redis
 vagrant up
 ```
 
-* Vagrant make take some time to setup your virtual machine
-* Once everything is up, you will have Crate running on localhost:4200 (http://127.0.0.1:4200/admin)
+* Redis will be exposed on port 6379
 
 
 Docs
 ----------
 * http://docs.vagrantup.com/v2/
-* https://crate.io/docs/current/
