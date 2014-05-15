@@ -6,7 +6,7 @@ VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.box = "hashicorp/precise32"
-  config.vm.define "redis" do |redis|
+  config.vm.define "mysql" do |mysql|
   end
 
   # Init script
@@ -14,6 +14,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   # Crateio default port
   # Modify the host port to have Crate running on a different port on your local machine
-  config.vm.network "forwarded_port", guest: 6379, host: 6379
+  config.vm.network "forwarded_port", guest: 3306, host: 3306
 
 end

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-apt-get install -y python-software-properties
-add-apt-repository -y ppa:rwky/redis
-apt-get update
-apt-get install -y redis-server
+debconf-set-selections <<< 'mysql-server mysql-server/root_password password '
+debconf-set-selections <<< 'mysql-server mysql-server/root_password_again password '
+apt-get update -y
+apt-get -y install mysql-server
