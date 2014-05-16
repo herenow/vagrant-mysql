@@ -14,7 +14,7 @@ vagrant up
 ```
 * `root`@`%` password is blank
 * `root`@`localhost` password is 'vagrant'
-* Redis will be exposed on port 3306
+* MySql will be exposed on port 3306
 
 
 Docs
