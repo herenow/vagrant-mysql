@@ -12,7 +12,8 @@ git clone https://github.com/herenow/vagrant-mysql
 cd vagrant-mysql
 vagrant up
 ```
-* The 'root' password will be set to 'vagrant'!!!
+* `root`@`%` password is blank
+* `root`@`localhost` password is 'vagrant'
 * Redis will be exposed on port 3306
 
 
